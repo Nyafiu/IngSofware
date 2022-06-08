@@ -1,11 +1,49 @@
+.uwu{
+  background-color: rgb(76, 69, 68);
+  color: white;
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 15px;
+
+}
+
+.calendario{
+  margin-left: 50px;
+}
+
+table{
+  margin-left: 50px;
+}
+
+#agregar{
+  margin-top: 30px;
+}
+
+.centrar{
+  text-align: center;
+}
 .inicio{
-    background-color: black;
-    color: white;
-    text-align: right;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+.decorado:hover{
+  color: red;
 }
 
 .habitaciones{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 10px;
+  border: black 2px solid;
+  background-color: antiquewhite;
+}
+
+td{
+  margin-top: 500px;
+}
+
+.carrusel{
   margin-left: 200px;
   margin-right: 200px;
 }
-
