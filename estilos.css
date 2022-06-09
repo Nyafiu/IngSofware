@@ -47,3 +47,11 @@ td{
   margin-left: 200px;
   margin-right: 200px;
 }
+
+.redes{
+  filter: brightness(120%);
+}
+
+.redes:hover {
+  filter: brightness(70%);
+}
