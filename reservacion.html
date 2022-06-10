@@ -38,45 +38,44 @@
 <body>
     <p class="inicio">
         <br>
-        Número de teléfono
+        <a style="padding-right: 20px; text-decoration: none;" class="link-light" href="#">9 8452 4856</a>
         <br><br>
-        Correo
+        <a style="padding-right: 20px; text-decoration: none;" href="#" class="link-light">contacto@veranum.com</a>
         <br><br>
     </p>
 
     <ul class="nav justify-content-end">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-              Veranum
-            </a>
-        </div>
         <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link link-dark" href="portada.html">Nosotros</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoteles</a>
+            <a class="nav-link dropdown-toggle link-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoteles</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Veranum Santiago</a></li>
-                <li><a class="dropdown-item" href="#">Veranum Valparaíso</a></li> 
+                <li><a class="dropdown-item" href="hotel_s.html">Veranum Santiago</a></li>
+                <li><a class="dropdown-item" href="hotel_v.html">Veranum Valparaíso</a></li> 
               </ul>
           </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Restaurante</a>
+            <a class="nav-link link-dark" href="#">Restaurante</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link link-dark" href="servicios.html">Servicios</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Reserva</a>
+            <a class="nav-link link-dark" href="reservacion.html">Reserva</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Contáctanos</a>
+            <a class="nav-link link-dark" href="#">Contáctanos</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Iniciar Sesión</a>
+            <a class="nav-link link-dark" href="#">Iniciar Sesión</a>
         </li>
     </ul>
+    <hr>
+    
+    <br>
+    <h1 class="display-5" style="margin-top: 30px; text-align: center;">Reserva</h1>
+    <br><br>
 
     <div class="container uwu">
       <div class="container">
@@ -94,16 +93,16 @@
                     <h5 class="centrar">Servicios</h5> 
                     <table>
                         <tr>
-                            <td><input type="checkbox" name="" id="">Piscina</td>
+                            <td><input type="checkbox" name="" id="" style="margin: 20px;">Piscina</td>
                         </tr>
                         <tr>
-                            <td><input type="checkbox" name="" id="">Gimnasio</td>
+                            <td><input type="checkbox" name="" id="" style="margin: 20px;">Gimnasio</td>
                         </tr>
                         <tr>
-                            <td><input type="checkbox" name="" id="">Spa</td>
+                            <td><input type="checkbox" name="" id="" style="margin: 20px;">Spa</td>
                         </tr>
                         <tr>
-                            <td><input type="checkbox" name="" id="">Cancha de tenis</td>
+                            <td><input type="checkbox" name="" id="" style="margin: 20px;">Cancha de tenis</td>
                         </tr>
                     </table>
                 </div>
@@ -136,8 +135,8 @@
                     <div class="col-6 col-md-4">
                         <select class="form-select categoria" aria-label="Default select example" name="categoria" id="categoria" style="margin-top: 10px;">
                             <option value="1"></option>
-                            <option value="2">Hotel 1</option>                     
-                            <option value="3">Hotel 2</option>
+                            <option value="2">Santiago</option>                     
+                            <option value="3">Valparaíso</option>
                           </select>
                     </div>
                     <input type="button" value="Enviar" id="enviar" name="enviar" style="margin-top: 15px;">
