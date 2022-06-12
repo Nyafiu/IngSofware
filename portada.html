@@ -20,6 +20,10 @@
 
     
     <ul class="nav justify-content-end">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" height="100" width="100" class="d-inline-block align-text-top">
+          Veranum
+        </a>
         <li class="nav-item">
             <a class="nav-link link-dark" href="portada.html">Nosotros</a>
         </li>
@@ -49,11 +53,6 @@
     
     <br>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/piscina.jpg" class="d-block w-100" height="600" width="600">
@@ -73,20 +72,20 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+
+        <div class="container">
+          <form action="#" class="formulario" name="formu" id="formu" method="post">
+            <input class="fchico" type="text" name="in" id="in" onfocus="(this.type='date')" placeholder="Check-in">
+            <input class="fchico" type="text" name="out" id="out" onfocus="(this.type='date')" placeholder="Check-out">
+            <input class="fchico" type="number" name="adultos" id="adultos" placeholder="Adultos">
+            <input class="fchico" type="number" name="ninos" id="ninos" placeholder="Niños">
+            <input class="fchico" type="number" name="habit" id="habit" placeholder="Habitaciones">
+            <input style="background-color: white; border-radius: 5px;" type="button" value="Buscar" id="buscar" name="buscar">
+          </form>
+      </div>
     </div>
 
-    
-    <form action="#" name="formu" id="formu" method="post">
-      <input type="text" name="in" id="in" onfocus="(this.type='date')" placeholder="Check-in">
-      <input type="text" name="out" id="out" onfocus="(this.type='date')" placeholder="Check-out">
-      <input type="number" name="adultos" id="adultos" placeholder="Adultos">
-      <input type="number" name="ninos" id="ninos" placeholder="Niños">
-      <input type="number" name="habit" id="habit" placeholder="Habitaciones">
-      <input type="button" value="Buscar" id="buscar" name="buscar">
-    </form>
-
-
-
+    <br><br><br>
     <h1 class="display-5" style="margin-top: 30px; text-align: center;">Habitaciones</h1>
     <br>
 
