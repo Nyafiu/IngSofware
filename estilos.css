@@ -92,7 +92,7 @@ td{
   /*background-color: rgb(26, 24, 24);*/
   position: absolute;
   top: 90%;
-  right: 13%;
+  right: 13%; /* oyeee, esto se te ve mal en tu navegador? pq en el mio estaba corrido*/
 }
 
 .fchico{
